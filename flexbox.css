@@ -1,0 +1,11 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.dev1{
+    background-color: pink;
+}
+.dev2{
+    background-color: lightblue;
+}
+

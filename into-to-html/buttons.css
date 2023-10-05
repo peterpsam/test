@@ -1,0 +1,318 @@
+body{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.youtube{
+    background-color: red;
+    color: whitesmoke;
+    border: none;
+    height: 36px;
+    width: 105px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+
+}
+
+.youtube:hover{
+    opacity: 0.5;
+}
+.youtube:active{
+    opacity: 0.3;
+}
+
+.twitter{
+    background-color: white;
+    color: blue;
+    border-color: blue;
+    height: 36px;
+    width: 80px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+.twitter:hover{
+    background-color: blue;
+    color: white;
+}
+
+.twitter:active{
+    opacity: 0.5;
+}
+.post{
+    background-color: rgb(12, 186, 255);
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    height: 36px;
+    width: 90px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+ 
+.post:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16) 
+}
+.uber{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: none;
+    height: 36px;
+    width: 120px;
+    cursor: pointer;
+}
+
+.Amazon{
+    background-color: rgb(255, 216, 20);
+    border: none;
+    height: 36px;
+    width: 80px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.Github{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 36px;
+    width: 80px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bootstrap{
+    display: flex;
+}
+
+
+.get{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 36px;
+    width: 80px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.get:hover{
+    opacity: 0.5;
+  
+}
+
+.Down{
+    background-color: rgb(255, 255, 255);
+    color: rgb(121, 82, 179);
+    border-color: rgb(121, 82, 179);
+    height: 36px;
+    width: 80px;
+    font-weight: bold;
+    border-width: 1px;
+    cursor: pointer;
+    transition: background-color 0.2s,color 0.2s;
+}
+
+.Down:hover{
+    background-color: gray;
+    color: white;
+}
+    
+
+
+.apply{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    width: 200px;
+    height: 36px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.15s;
+}
+
+.apply:hover{
+     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.16);
+}
+
+.sa{
+    background-color:white;
+    color: rgb(10, 102, 194);
+    border-color:rgb(10, 102, 194);
+    border-radius:20px;
+    border-width: 1px;
+    font-weight: bold;
+    height: 36px;
+    width: 70px;
+    cursor: pointer;
+}
+
+.sa:hover{
+    background-color: rgb(201, 224, 236);
+    border-width: 2px;
+}
+
+.ass1{
+    display: inline-block;
+
+
+}
+    
+.btn1{
+    padding: 6px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.btn2{
+    padding: 6px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.pagination{
+    display: inline-block;
+}
+
+.pagination a{
+color: black;
+padding: 3px;
+}
+
+.btn3{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.btn3:hover{
+    padding:20px 40px;
+}
+
+.btn4{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.16)
+
+}
+
+.btn4:active{
+    transform: translateX(2px) translateY(2px);
+    box-shadow: 1px 1px 10px; 
+}
+
+section{
+    display: block;
+}
+
+.sec-ass1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.sec1-container{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    width: 40%;
+    padding-left: 4px;
+}
+.sec-ass2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.sec-ass3{
+    font-style: italic;
+    color: rgb(217, 12, 12);
+    margin-top: 2px;
+}
+ .sec4-container{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    width: 40%;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+
+.sec-ass4{
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    
+}
+
+.sec-ass5{
+    color: gray;
+    margin-top: 0;
+    font-weight: 3px;
+
+
+}
+
+.sec-ass6{
+    width: 280px;
+    font-weight: 200;
+    font-size: 15px;
+    
+}
+
+.sec-btn1{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 4px;
+    font-size: 13px;
+    
+}
+
+.sec7-container{
+    border: 2px solid black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 40%;
+
+}    
+  
+
+.sec-ass7{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 0px;
+   
+}
+
+.sec-ass8{
+    font-size:11px;
+    font-weight: bold;
+    
+}
+
+.sec-ass9{
+    color: rgb(22, 22, 145);
+    font-size: 10px;
+}

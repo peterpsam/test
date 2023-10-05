@@ -1,0 +1,382 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+   
+
+/*beginning of first div*/
+
+
+.corner1{
+    width: 250px;
+    margin-top: 10px;
+  
+}
+
+.corner1 p{
+    font-size:20px;
+    margin-left: 40px;
+}
+    
+    
+
+  
+
+.hme{
+    font-weight: bold;
+}
+
+.lhs{
+    display: flex;
+    flex-direction: column;
+}
+    
+
+.llhs{
+    display: flex;
+    flex-direction: row;
+}
+    
+
+.llhs:hover{
+    background-color:  rgb(244, 244, 244);
+    border-radius: 50px;
+}
+    
+.posts{
+    background-color: rgb(25, 116, 244);
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 12px 90px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+    
+    
+
+.corner1 img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/*beginning of middle div*/
+
+
+.corner2{
+    width: 700px;
+    padding-left: 15px;
+    margin-right:20px;
+    margin-left: 20px;
+    border-left: 1px solid rgb(235, 232, 232);
+    border-right: 1px solid rgb(235, 232, 233);
+}
+
+.txt2-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.foryu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(235, 232, 233);
+    
+}
+
+.foryu-container p{
+    margin-bottom: 0;
+}
+
+.foryu p{
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.small-rectangle{
+    background-color: rgb(102, 151, 220);
+    border: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.main-tweet{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.imgg{
+   margin-right: 5px;
+}
+
+.imgg img{
+    width: 30px;
+}
+
+.grey-color{
+    height: 500px;
+    background-color:rgb(211, 206, 206);
+    width: 3px;
+    margin-left: 14px;
+}
+
+.usman{
+    display: flex;
+    flex-direction: row;
+}
+
+.usman p{
+    margin-top: 0;
+}
+
+.usman-container{
+    margin-left: 10px;
+}
+
+.gone{
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.time{
+    margin-left: 10px;
+}
+
+.wait{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+    
+.usman img{
+    width: 20px;
+    height: 10px;
+} 
+
+.utman{
+    margin-bottom: 0;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+
+/*beginning of last div*/
+
+.corner3{
+    width: 300px;
+    margin-top: 5px;
+    /*border: 2px solid black;*/
+}
+
+
+
+.sachbtn{
+    border: none;
+    background-color: rgb(244, 244, 244);
+    border-radius: 80px;
+ 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 40px;
+    width: 258px;
+}
+
+.sachbtn::placeholder{
+    font-size: 12px;
+}
+
+.block3-1{
+    background-color:rgb(244, 244, 244);
+    padding-top:10px;
+    padding-left: 8px;
+    padding-right:18px;
+    margin-top: 12px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.block-txt1{
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.block-txt2{
+    
+    font-size: 13px;
+    font-family: arial;
+    font-weight: bold;
+}
+
+.sub-btn{
+    padding: 8px 18px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.lstn{
+    background-color:rgb(244, 244, 244) ;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.live{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.etanal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.etanal1-1{
+    font-weight: bold;
+    font-size: 14px;
+
+}
+
+.chinks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.btn1-1{
+    background-color: white;
+    width: 120px;
+    display: flex;
+    flex-direction: row;
+    
+    border-radius: 60px;
+    border: 2px solid rgb(131, 16, 219);
+}
+
+.imgry{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+.btn1-1 img{
+    width: 25px;
+    border-radius: 12.5px;
+}
+
+.block4-1{
+    background-color:rgb(244, 244, 244) ;
+    padding-top: 2px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+.trend{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: large;
+ font-weight: bolder;
+ margin-top: 10px;
+ margin-bottom: 17px;
+}
+
+.sprts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ 
+.trndn{
+    color: grey;
+    margin-bottom: 1px;
+    font-size: 17px;
+    margin-top: 0;
+}
+.madders{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.post{
+    color: grey;
+    margin-top: 2px;
+    font-size: 17px;
+}
+
+.rho{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.glam{
+    font-size: 13px;
+    color: grey;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+
+.icon{
+   font-size: 10px;
+   color: grey;
+   margin-top: 3px;
+}
+
+
+.music-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mustren{
+    color: grey;
+    margin-bottom: 1px;
+    font-size: 17px;
+    margin-top: 0;
+}
+
+
+.after{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
